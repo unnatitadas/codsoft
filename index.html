@@ -3,39 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>unnati's Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>unnati's Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <div class="logo" style="color: black;">unnati</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="work.html">Work</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button class="login-btn">Login</button>
-    </header>
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Hello! I AM <span style="color: rgb(248, 63, 236);">unnati tadas</span></h1>
-            <p>Building simple and beautiful things for complex interfaces is what I enjoy most about my work. I am also interested in crafting beautiful minimal products and exploring new worlds.</p>
-            <div class="social-links">
-                
-                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png" alt="Instagram"></a>
-                
-                <a href="#"><img src="https://www.freepnglogos.com/uploads/official-linkedin-logo----17.png" alt="LinkedIn"></a>
-            
-            </div>
-            <a href="work.html" class="cta" style="color: rgb(0, 0, 0);">See my work →</a>
+        <div class="container">
+            <h1>Welcome to Our Official web page </h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="hero-image">
-            <img src="unnati internship.jpg" alt="unnati tadas" style="position: relative; right: 300px;">
+    </header>
 
+    <!-- Main Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Your Solution Awaits</h2>
+            <p>We provide the best services to help you succeed.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
         </div>
     </section>
+
+    <!-- Features Section -->-
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Our Features</h2>
+            <div class="feature-boxes">
+                <div class="feature-box">
+                    <h3>Fast Performance</h3>
+                    <p>The latest encryption techniques to protect your data and privacy are been used in our product.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>User-Friendly Interface</h3>
+                    <p>We use the latest encryption techniques to protect your data and privacy.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>High Security</h3>
+                    <p>The latest encryption techniques to protect your data and privacy are used in our poroduct.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="pricing-boxes">
+                <div class="pricing-box">
+                    <h3>Basic Plan</h3>
+                    <p>₹500 for 1 month</p>
+                    <a href="#contact" class="cta-button">Sign Up</a>
+                </div>
+                <div class="pricing-box">
+                    <h3>Pro Plan</h3>
+                    <p>₹900 for 3 month</p>
+                    <a href="#contact" class="cta-button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#">
+                <input type="text" placeholder=" Name" required>
+                <input type="email" placeholder=" Email" required>
+                <textarea placeholder=" Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 unnati's Company </p>
+        </div>
+    </footer>
+
+    <!-- Link to the external JS file -->
+    <script src="script.js"></script>
 </body>
 </html>
